@@ -13,10 +13,9 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/vendor/bin,$(TARGET_COPY_OUT_VENDOR)/bin) \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/vendor/lib,$(TARGET_COPY_OUT_VENDOR)/lib) \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/vendor/lib64,$(TARGET_COPY_OUT_VENDOR)/lib64) \
-    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/vendor/etc,$(TARGET_COPY_OUT_VENDOR)/etc)
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/vendor/firmware,$(TARGET_COPY_OUT_VENDOR)/firmware)
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/system,$(TARGET_COPY_OUT_SYSTEM))
 
 endif
-
